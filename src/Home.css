@@ -1,0 +1,57 @@
+/* Home.css */
+
+.page-content {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+  
+}
+
+.page-content h1 {
+  font-size: 2.5rem;
+  color: #333; /* Dark color for readability */
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.page-content p {
+  font-size: 1.1rem;
+  color: #555; /* Softer gray for descriptive text */
+  line-height: 1.6;
+}
+
+.page-content h2 {
+  font-size: 1.8rem;
+  color: #222; /* Slightly darker heading color */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page-content ul li {
+  font-size: 1.1rem;
+  color: #444; /* Darker color for list items */
+  margin: 0.5rem 0;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.page-content ul li::before {
+  content: "✓";
+  color: #007bff; /* Bootstrap primary color */
+  position: absolute;
+  left: 0;
+}
+
+.page-content p:last-child {
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
